@@ -1,0 +1,47 @@
+input,mode,expected,rule_id,description
+Đường cao tốc Biên Hoà - Vũng Tàu,abbreviate,CT. Biên Hoà - Vũng Tàu,A01,compound expressway
+Đường cao tốc Biên Hoà - Vũng Tàu,remove,CT. Biên Hoà - Vũng Tàu,R01,compound expressway
+Đường Vành Đai 3.5,abbreviate,VĐ. 3.5,A02,compound ring road
+Đường Vành Đai 3.5,remove,Vành Đai 3.5,R02,remove leading word only
+Đường Liên Thôn 2,abbreviate,Đường Liên Thôn 2,A03,keep inter-hamlet road
+Đường Liên Thôn 2,remove,Đường Liên Thôn 2,R03,keep inter-hamlet road
+Đường Liên Xã Hồng Minh – Tri Trung,abbreviate,Đường Liên Xã Hồng Minh – Tri Trung,A04,keep inter-commune road
+Đường Liên Xã Hồng Minh – Tri Trung,remove,Đường Liên Xã Hồng Minh – Tri Trung,R04,keep inter-commune road
+Đường Tỉnh 302,abbreviate,ĐT. 302,A05,provincial road
+Đường Tỉnh 302,remove,Đường Tỉnh 302,R05,keep full provincial form
+Đường Huyện 10,abbreviate,ĐH. 10,A06,district road
+Đường Huyện 10,remove,Đường Huyện 10,R06,keep full district form
+Quốc Lộ 1A,abbreviate,QL. 1A,A07,national highway
+Quốc Lộ 1A,remove,Quốc Lộ 1A,R07,keep full national form
+Tỉnh Lộ 206,abbreviate,TL. 206,A08,provincial route
+Tỉnh Lộ 206,remove,Tỉnh Lộ 206,R08,keep full provincial route
+Huyện Lộ 24,abbreviate,HL. 24,A09,district route
+Huyện Lộ 24,remove,Huyện Lộ 24,R09,keep full district route
+Đại Lộ Bốn Mùa,abbreviate,ĐL. Bốn Mùa,A10,boulevard
+Đại Lộ Bốn Mùa,remove,Đại Lộ Bốn Mùa,R10,keep boulevard
+Cao tốc Liên Khương - Prenn,abbreviate,CT. Liên Khương - Prenn,A11,expressway
+Cao tốc Liên Khương - Prenn,remove,CT. Liên Khương - Prenn,R11,canonical expressway output
+Xa lộ Hà Nội,abbreviate,XL. Hà Nội,A12,highway
+Xa lộ Hà Nội,remove,Hà Nội,R12,remove highway
+Vành Đai 5,abbreviate,VĐ. 5,A13,ring road
+Vành Đai 5,remove,5,R13,remove ring road
+Hèm 12 Đường Số 1,abbreviate,Hẻm 12 Đường Số 1,A14,correct alley alias
+Hèm 12 Đường Số 1,remove,Hẻm 12 Đường Số 1,R14,correct alley alias
+Ngách 2 Ngõ 42,abbreviate,Ng. 2 Ngõ 42,A15,sub-alley
+Ngách 2 Ngõ 42,remove,Ngách 2 Ngõ 42,R15,keep sub-alley
+Ngõ 62 Phố Huế,abbreviate,Ng. 62 Phố Huế,A16,alley
+Ngõ 62 Phố Huế,remove,Ngõ 62 Phố Huế,R16,keep alley
+Kiệt 83 Nguyễn Duy Hiệu,abbreviate,Kiệt 83 Nguyễn Duy Hiệu,A17,keep central-Vietnam alley
+Kiệt 83 Nguyễn Duy Hiệu,remove,Kiệt 83 Nguyễn Duy Hiệu,R17,keep central-Vietnam alley
+Dường Nguyễn Trãi,abbreviate,Đ. Nguyễn Trãi,A18,correct road alias
+Dường Nguyễn Trãi,remove,Nguyễn Trãi,R18,remove road alias
+Phó Nguyễn Du,abbreviate,P. Nguyễn Du,A19,correct street alias
+Phó Nguyễn Du,remove,Nguyễn Du,R19,remove street alias
+QL2,abbreviate,QL.2,A07,attached national code
+QL2,remove,QL.2,R07,attached national code
+ĐT261D,abbreviate,ĐT.261D,A05,attached provincial code
+ĐT261D,remove,ĐT.261D,R05,attached provincial code
+DT 258,abbreviate,ĐT. 258,A05,ASCII provincial alias
+DT 258,remove,ĐT. 258,R05,ASCII provincial alias
+TL4,abbreviate,TL.4,A08,attached provincial route
+HL2,remove,HL.2,R09,attached district route
